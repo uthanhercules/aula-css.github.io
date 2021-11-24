@@ -1,10 +1,12 @@
 :root {
+  /* Variáveis de Cor */
   --corFundo: #101026;
   --corTipo: #F1DF6C;
   --corFraqueza: #937B33;
 }
 
 * {
+  /* Reset básico de CSS */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,8 +24,30 @@ body {
 
 main {
   margin: 0 auto;
+  padding: 30px 43px; /* padding: vertical horizontal; */
   width: 410px;
   height: 657px;
   border-radius: 20px;
   background-color: #FFF;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.fotoPokemon {
+  display: block;
+  margin: 0 auto;
 }
