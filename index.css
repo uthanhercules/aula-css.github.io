@@ -1,0 +1,29 @@
+:root {
+  --corFundo: #101026;
+  --corTipo: #F1DF6C;
+  --corFraqueza: #937B33;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding: 55px 0;
+  height: 100vh;
+  background-color: var(--corFundo);
+}
+
+main {
+  margin: 0 auto;
+  width: 410px;
+  height: 657px;
+  border-radius: 20px;
+  background-color: #FFF;
+}
